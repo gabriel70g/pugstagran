@@ -1,6 +1,16 @@
-#descargar el proyecto
+pugstagran
+descargar el proyecto
 
-#ejecutar 
+1 - descomprimir
 
-#npm isntall
+2 -ingresar a la carpeta deñ proyecto 
 
+    cd pugstagran
+
+3 - Ejecutar
+
+    npm install
+
+4 - Ejecutar
+
+    npm run start
