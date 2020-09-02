@@ -11,4 +11,5 @@ descargar el proyecto
 
     npm install
 
-4 - npm run start
+4 - Ejecutar
+    npm run start
