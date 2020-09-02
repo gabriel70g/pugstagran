@@ -71,9 +71,6 @@ function AddComment(event) {
       outline: none;
       cursor: pointer;
     }
-    label {
-      display: none;
-    }
 </style>
   
 <div class="Comments">
