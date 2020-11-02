@@ -1,1 +1,9 @@
 node_modules
+.dynamodb/
+
+tmp/
+temp/
+
+#sapper
+src/node_modules
+__sapper__

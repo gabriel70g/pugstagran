@@ -4,22 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "start" : "webpack-dev-server --open --mode development"
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "start": "node __sapper__/build",
+    "export": "sapper export"
   },
   "author": "Gabriel Gomez",
-  "license": "ISC",
-  "dependencies": {},
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "polka": "^0.5.2",
+    "sirv": "^1.0.7"
+  },
   "devDependencies": {
-    "@babel/core": "^7.11.4",
-    "@babel/polyfill": "^7.10.4",
-    "@babel/preset-env": "^7.11.0",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.4.1",
+    "sapper": "^0.28.10",
     "svelte": "3.24.1",
     "svelte-loader": "^2.13.6",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "3.11.0"
+    "webpack": "^4.44.1"
   }
 }
